@@ -1,0 +1,69 @@
+# section information
+section:
+  name: Experiences
+  id: experiences
+  enable: true
+  weight: 3
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+# Your experiences
+experiences:
+  - company:
+      name: UK IPOP
+      url: 'https://pharmacy.uky.edu/office-research-operations/infrastructure/research-centers/ipop'
+      location: Lexington
+      # company overview
+      overview: Pharmaceutical Research Center
+    positions:
+      - designation: Data Scientist / Data Engineer
+        start: December 2020
+        # don't provide end date if you are currently working there. It will be replaced by "Present"
+        responsibilities:
+          - Build data pipelines to support researchers
+          - Transfer team to GitHub for open-source work
+          - Automate workflows
+          - Utilize machine learning for advanced research in NLP
+
+  - company:
+      name: MatBoss
+      url: 'https://www.matboss.com'
+      location: Minneapolis
+      # company overview
+      overview: Wrestling's premier VideoStats app.
+    positions:
+      - designation: Data Scientist / Full Stack Developer
+        start: Feb 2020
+        # don't provide end date if you are currently working there. It will be replaced by "Present"
+        responsibilities:
+          - Develop Analytics platform with Docker including Python backend and SPA (Vue) frontend
+          - Develop data pipeline for cleaning user input data
+
+  - company:
+      name: Raise Leaders
+      url: https://www.raiseleaders.org
+      location: Boynton Beach
+      overview: Empowering Lives Through Martial Arts, Fitness and Community
+    positions:
+      - designation: Full Stack Developer
+        start: June 2020
+        end: Dec 2020
+        responsibilities:
+          - Built full-stack web application using Django and Bootstrap
+          - Developed attendance tracking system for virtual zoom classes
+          - Created avatar system using rank-based badges to encourage youth participation
+
+  - company:
+      name: Veritas Wrestling Systems
+      location: Online
+      overview: Wrestling Statistics
+    positions:
+      - designation: Software Engineer
+        start: Sept 2017
+        end: Aug 2019
+        responsibilities:
+          - Deployed first publicly available database for wrestling
+          - Engineered CLI and GUI data collection software for real-time data collection
+          - Built predictive model to determine likely match outcomes
+          - Created user dashboard for fantasy wrestling to increase marketability
