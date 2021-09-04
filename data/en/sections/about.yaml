@@ -35,6 +35,10 @@ socialLinks:
     icon: 'fab fa-linkedin'
     url: 'https://www.linkedin.com/in/nicholas-anthony-067063a4/'
 
+  - name: Medium
+    icon: 'fab fa-medium'
+    url: 'https://nanthony007.medium.com'
+
   - name: Twitter
     icon: 'fab fa-twitter'
     url: 'https://twitter.com/Nanthony95'
