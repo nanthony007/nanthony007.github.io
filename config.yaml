@@ -39,7 +39,3 @@ params:
 
   background: 'images/hero.jpeg'
   # add logo and favicon
-  logo:
-    main: images/logo.png
-    inverted: images/logo.png
-    favicon: images/logo.png
