@@ -11,13 +11,22 @@ section:
 # Your Skills.
 # Give a summary of you each skill in the summary section.
 skills:
-  - name: Python
-    summary: 'Experienced with writing automation scripts, publishing open-source packages, building web backends at scale.'
+  - name: Python Development
+    summary: 'Experienced with writing automation scripts, publishing open-source packages, and building web backends at scale.'
     url: 'https://www.python.org'
 
   - name: Go Development
-    summary: 'Experienced with building REST APIs and web technologies including spiders/crawlers and Hugo sites.'
+    summary: 'Experienced with building REST APIs, CLIs, web technologies including scrapers/spiders/crawlers and Hugo sites.'
     url: 'https://golang.org/'
 
-  - name: Data & Analytics
-    summary: 'Experienced with  machine learning, advanced data pipelines, database management.'
+  - name: Machine Learning
+    summary: 'Experienced with supervised and unsupervised machine learning modeling to build predictive and interpretive models including NLP modeling.'
+
+  - name: Data Management
+    summary: 'Experienced with building data pipelines and managing data in structured and unstructured formats including SQL databases, NoSQL databases, and Graph databases.'
+
+  - name: Frontend Development
+    summary: 'Experienced with VueJS and React.  Experienced building JAMstack sites using Nuxt, serverless functions, and Netlify CDN.'
+
+  - name: Cloud Computing
+    summary: 'Experienced with AWS services including S3, Lambda, ECS and their GCP counterparts as well as cloud deployment services such as Heroku, Netlify, and Digital Ocean.'
