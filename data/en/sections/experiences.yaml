@@ -11,20 +11,20 @@ section:
 # Your experiences
 experiences:
   - company:
-      name: UK IPOP
+      name: University of Kentucky Institute for Pharmaceutical Outcomes and Policy
       url: 'https://pharmacy.uky.edu/office-research-operations/infrastructure/research-centers/ipop'
       location: Lexington
       # company overview
       overview: Pharmaceutical Research Center
     positions:
-      - designation: Data Scientist / Data Engineer
+      - designation: Data Support Assistant
         start: December 2020
         # don't provide end date if you are currently working there. It will be replaced by "Present"
         responsibilities:
           - Build data pipelines to support researchers
+          - Utilize machine learning for research in NLP
+          - Automate various researcher workflows
           - Transfer team to GitHub for open-source work
-          - Automate workflows
-          - Utilize machine learning for advanced research in NLP
 
   - company:
       name: MatBoss
@@ -39,6 +39,7 @@ experiences:
         responsibilities:
           - Develop Analytics platform with Docker including Python backend and SPA (Vue) frontend
           - Develop data pipeline for cleaning user input data
+          - Create data visualizations for social media marketing and user engagement
 
   - company:
       name: Raise Leaders
