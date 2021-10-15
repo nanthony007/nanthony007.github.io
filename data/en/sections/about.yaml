@@ -11,14 +11,14 @@ section:
 designation: Data Scientist
 # your company information
 company:
-  name: University of Kentucky Institute for Pharmaceutical Outcomes
+  name: UK IPOP
   url: 'https://pharmacy.uky.edu/office-research-operations/infrastructure/research-centers/ipop'
 
 # your resume. this file path should be relative to you "static" directory
 resume: 'files/resume_cv.pdf'
 
 # a summary about you
-summary: 'I am a passionate software developer and data engineer. I built OSS tools for [Python](https://python.org/). My tools help researchers effectively manage their data. Sometimes, I work on some fun projects such as [building algorithms](https://github.com/nanthony007/fe-awakening) to help me win video games.'
+summary: 'I am a passionate software developer and data engineer. I built OSS tools with [Python](https://python.org/) and [Go](https://golang.org). My tools help researchers effectively manage their data. Sometimes, I work on some fun projects such as [building algorithms](https://github.com/nanthony007/fe-awakening) to help me win video games.'
 
 # your social links
 # give as many as you want. use font-awesome for the icons.
@@ -45,10 +45,13 @@ socialLinks:
 # your soft skills
 # give the percentage between 50 to 100 with 5 intervals.
 # currently supported colors: blue, yellow, pink, green, sky, orange
-# softSkills:
-#   - name: Leadership
-#     percentage: 85
-#     color: blue
-#   - name: Team Work
-#     percentage: 90
-#     color: yellow
+softSkills:
+  - name: Leadership
+    percentage: 85
+    color: blue
+  - name: TeamWork
+    percentage: 90
+    color: yellow
+  - name: TeamWork
+    percentage: 90
+    color: sky
