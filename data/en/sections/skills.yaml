@@ -12,21 +12,23 @@ section:
 # Give a summary of you each skill in the summary section.
 skills:
   - name: Python Development
-    summary: 'Experienced with writing automation scripts, publishing open-source packages, and building web backends at scale.'
-    url: 'https://www.python.org'
+    summary: "Experienced with writing automation scripts, publishing open-source packages, and building web backends at scale."
+    url: "https://www.python.org"
 
   - name: Go Development
-    summary: 'Experienced with building REST APIs, CLIs, web technologies including scrapers/spiders/crawlers and Hugo sites.'
-    url: 'https://golang.org/'
+    summary: "Experienced with building REST APIs, CLIs, web technologies including scrapers/spiders/crawlers and Hugo sites."
+    url: "https://golang.org/"
 
-  - name: Machine Learning
-    summary: 'Experienced with supervised and unsupervised machine learning modeling to build predictive and interpretive models including NLP modeling.'
-
-  - name: Data Management
-    summary: 'Experienced with building data pipelines and managing data in structured and unstructured formats including SQL databases, NoSQL databases, and Graph databases.'
+  - name: Rust Development
+    summary: "Intermediate experience with Rust development focusing on CLI applications and large data processing."
+    url: "https://www.rust-lang.org/"
 
   - name: Frontend Development
-    summary: 'Experienced with VueJS and React.  Experienced building JAMstack sites using Nuxt, serverless functions, and Netlify CDN.'
+    summary: "Experienced with React with preference for JAMstack frameworks like NextJS."
+    url: "https://nextjs.org/"
 
-  - name: Cloud Computing
-    summary: 'Experienced with AWS services including S3, Lambda, ECS and their GCP counterparts as well as cloud deployment services such as Heroku, Netlify, and Digital Ocean.'
+  - name: Machine Learning
+    summary: "Experienced with supervised and unsupervised machine learning modeling to build predictive models including NLP modeling."
+
+  - name: Data Engineering
+    summary: "Experienced with building data pipelines and managing data in structured and unstructured formats."

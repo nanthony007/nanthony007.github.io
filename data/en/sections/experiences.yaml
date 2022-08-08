@@ -12,28 +12,28 @@ section:
 experiences:
   - company:
       name: University of Kentucky Institute for Pharmaceutical Outcomes and Policy
-      url: 'https://pharmacy.uky.edu/office-research-operations/infrastructure/research-centers/ipop'
+      url: "https://pharmacy.uky.edu/office-research-operations/infrastructure/research-centers/ipop"
       location: Lexington
       # company overview
       overview: Pharmaceutical Research Center
     positions:
-      - designation: Data Scientist/Engineer
+      - designation: Data/Software Engineer
         start: December 2020
         # don't provide end date if you are currently working there. It will be replaced by "Present"
         responsibilities:
           - Build data pipelines to support researchers
           - Utilize machine learning for research in NLP
-          - Automate various researcher workflows
-          - Transfer team to GitHub for open-source work
+          - Utilize machine learning for geospatial prediction research
+          - Build OSS tools (CLI and web) to enhance researcher productivity and enable reproducible research
 
   - company:
       name: MatBoss
-      url: 'https://www.matboss.com'
+      url: "https://www.matboss.com"
       location: Minneapolis
       # company overview
       overview: Wrestling's premier VideoStats app.
     positions:
-      - designation: Data Scientist / Full Stack Developer
+      - designation: Software Engineer
         start: Feb 2020
         # don't provide end date if you are currently working there. It will be replaced by "Present"
         responsibilities:
@@ -47,7 +47,7 @@ experiences:
       location: Boynton Beach
       overview: Empowering Lives Through Martial Arts, Fitness and Community
     positions:
-      - designation: Full Stack Developer
+      - designation: Software Engineer
         start: June 2020
         end: Dec 2020
         responsibilities:
@@ -60,7 +60,7 @@ experiences:
       location: Online
       overview: Wrestling Statistics
     positions:
-      - designation: Software Developer
+      - designation: Software Engineer
         start: Sept 2017
         end: Aug 2019
         responsibilities:
