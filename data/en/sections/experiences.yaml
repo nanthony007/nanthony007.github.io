@@ -13,21 +13,37 @@ experiences:
   - company:
       name: University of Kentucky Institute for Pharmaceutical Outcomes and Policy
       url: "https://pharmacy.uky.edu/office-research-operations/infrastructure/research-centers/ipop"
-      location: Lexington
+      location: Lexington, KY
       # company overview
-      overview: Pharmaceutical Research Center
+      overview: Research Center at University of Kentucky
     positions:
-      - designation: Data/Software Engineer
+      - designation: Data Scientist
         start: December 2020
         # don't provide end date if you are currently working there. It will be replaced by "Present"
         responsibilities:
-          - Build data pipelines to support researchers
-          - Utilize machine learning for research in NLP
-          - Utilize machine learning for geospatial prediction research
+          - Build large scale data pipelines to support researchers access to processed data
+          - Utilize NLP techniques and medical knowledge bases to transform unstructured data into structured data on EMS and EMR records
+          - Utilize machine learning modeling for geospatial prediction estimates
           - Build OSS tools (CLI and web) to enhance researcher productivity and enable reproducible research
+          - Engage in Open Research
 
   - company:
-      name: MatBoss
+      name: Global Fortification Data Exchange (GFDx)
+      url: https://fortificationdata.org
+      location: Global
+      overview: Providing Actionable Food Fortification Data
+    positions:
+      - designation: Senior Software Engineer
+        start: June 2022
+        responsibilities:
+          - Migrate architecture from existing vendored services to in-house solutions
+          - Implement data modeling, validation, and standardization across organization
+          - Hire web developer and designer and supervised development of frontend dashboards
+          - Create automated DB synchronization pipeline for Data Steward database and Production
+          - Create data pipeline for country survey submissions
+
+  - company:
+      name: MatBoss (prev Veritas Wrestling Systems)
       url: "https://www.matboss.com"
       location: Minneapolis
       # company overview
@@ -35,11 +51,22 @@ experiences:
     positions:
       - designation: Software Engineer
         start: Feb 2020
-        # don't provide end date if you are currently working there. It will be replaced by "Present"
+        end: Dec 2022
         responsibilities:
-          - Develop Analytics platform with Docker including Python backend and SPA (Vue) frontend
-          - Develop data pipeline for cleaning user input data
+          - Deploy Analytics platform with Docker including Python backend and SPA (Vue) frontend
+          - Build user-based feedback system to assist with data error reduction/elimination
+          - Release open-source wrestling package on PyPI for standard wrestling data models/containers
+          - Develop universal data model to standardize/validate data and reduce errors throughout organization
           - Create data visualizations for social media marketing and user engagement
+      - designation: Founder
+        start: Sept 2017
+        end: Dec 2019
+        responsibilities:
+          - Deploy first publicly available database for wrestling
+          - Engineer CLI and GUI data collection software for real-time data collection
+          - Build predictive model to determine likely match outcomes
+          - Create user dashboard for fantasy wrestling to increase marketability
+          - Acquired by MatBoss LLC (winter 2019)
 
   - company:
       name: Raise Leaders
@@ -48,23 +75,9 @@ experiences:
       overview: Empowering Lives Through Martial Arts, Fitness and Community
     positions:
       - designation: Software Engineer
-        start: June 2020
+        start: March 2020
         end: Dec 2020
         responsibilities:
-          - Built full-stack web application using Django and Bootstrap
-          - Developed attendance tracking system for virtual zoom classes
-          - Created avatar system using rank-based badges to encourage youth participation
-
-  - company:
-      name: Veritas Wrestling Systems
-      location: Online
-      overview: Wrestling Statistics
-    positions:
-      - designation: Software Engineer
-        start: Sept 2017
-        end: Aug 2019
-        responsibilities:
-          - Deployed first publicly available database for wrestling
-          - Engineered CLI and GUI data collection software for real-time data collection
-          - Built predictive model to determine likely match outcomes
-          - Created user dashboard for fantasy wrestling to increase marketability
+          - Build full-stack web application
+          - Develop attendance tracking system for virtual zoom classes
+          - Create avatar customization system using rank-based badges to encourage youth participation

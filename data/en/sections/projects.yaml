@@ -1,0 +1,59 @@
+# section information
+section:
+  name: Projects
+  id: projects
+  enable: true
+  weight: 5
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+# filter buttons
+buttons:
+  - name: All
+    filter: "all"
+  - name: Professional
+    filter: "professional"
+  - name: Academic
+    filter: "academic"
+  - name: Hobby
+    filter: "hobby"
+
+# your projects
+projects:
+  - name: Drug Extraction ToolBox
+    logo: /images/drugs.png
+    repo: https://github.com/UK-IPOP/drug-extraction
+    summary: A series of tools for extracting drug mentions from text fields with RxNorm integration.
+    tags: ["professional", "academic"]
+
+  - name: Scholar Network
+    logo: /images/scholar.jpg
+    repo: https://github.com/UK-IPOP/scholar-network
+    summary: A Python package for scraping data from Google Scholar and building network graphs.
+    tags: ["professional"]
+
+  - name: OpenData Pipeline
+    logo: /images/pipeline.png
+    repo: https://github.com/UK-IPOP/open-data-pipeline
+    #url: ""
+    summary: A pipeline for processing, enhancing, and sharing open medical examiner datasets
+    tags: ["professional", "academic"]
+
+  - name: Fire Emblem Algorithms
+    logo: /images/Fire_Emblem_logo.svg.png
+    repo: https://github.com/nanthony007/fe-awakening
+    summary: Trying to help myself win video games using algorithms
+    tags: ["hobby"]
+
+  - name: VLR scrapers
+    logo: /images/val-stats.png
+    repo: https://github.com/nanthony007/vlr-scraper
+    summary: A web scraper to fetch game data from a popular Valorant website
+    tags: ["hobby"]
+
+  - name: Climbing App
+    logo: /images/climbing.png
+    repo: https://github.com/nanthony007/climbing-app
+    summary: A fun webapp to keep track of climbing problems and calculate their difficulty
+    tags: ["hobby"]

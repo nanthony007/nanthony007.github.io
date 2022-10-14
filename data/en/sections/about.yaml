@@ -4,11 +4,11 @@ section:
   id: about
   enable: true
   weight: 1
-  showOnNavbar: true
+  showOnNavbar: false
   template: sections/about.html
 
 # your designation
-designation: Data Engineer
+designation: Data Scientist
 # your company information
 company:
   name: UK IPOP
@@ -18,7 +18,7 @@ company:
 resume: "files/resume_cv.pdf"
 
 # a summary about you
-summary: "I am a passionate software developer and data engineer. I built OSS tools to help researchers effectively manage their data. Sometimes, I work on some fun projects such as [building algorithms](https://github.com/nanthony007/fe-awakening) to help me win video games."
+summary: "I am a passionate data scientist and engineer. I build OSS tools to help researchers effectively manage their data. Sometimes, I work on some fun projects such as [building algorithms](https://github.com/nanthony007/fe-awakening) to help me win video games."
 
 # your social links
 # give as many as you want. use font-awesome for the icons.
@@ -45,13 +45,18 @@ socialLinks:
 # your soft skills
 # give the percentage between 50 to 100 with 5 intervals.
 # currently supported colors: blue, yellow, pink, green, sky, orange
-# softSkills:
-#   - name: Leadership
-#     percentage: 85
-#     color: blue
-#   - name: TeamWork
-#     percentage: 90
-#     color: yellow
-#   - name: TeamWork
-#     percentage: 90
-#     color: sky
+badges:
+  - type: soft-skill-indicator
+    name: Backend
+    color: yellow
+    percentage: 75
+
+  - type: soft-skill-indicator
+    name: Machine learning
+    color: "#A020F0"
+    percentage: 80
+
+  - type: soft-skill-indicator
+    name: Data Pipelines
+    color: sky
+    percentage: 90
