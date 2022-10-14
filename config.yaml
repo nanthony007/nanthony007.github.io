@@ -1,8 +1,8 @@
 baseURL: https://nanthony007.github.io
 
 languageCode: en-us
-title: 'Nick Anthony'
-theme: 'toha'
+title: "Nick Anthony"
+theme: "toha"
 
 # Manage languages
 # For any more details, you can check the official documentation: https://gohugo.io/content-management/multilingual/
@@ -25,6 +25,8 @@ enableEmoji: true
 params:
   # GitHub repo URL of your site
   gitRepo: https://github.com/nanthony007/nanthony007.github.io
+  # Default branch of your Git repo
+  gitBranch: main
 
   # specify whether you want to write some blog posts or not
   enableBlogPost: false # TODO: for now
@@ -37,5 +39,5 @@ params:
   newsletter:
     enable: false
 
-  background: 'images/hero.jpeg'
+  background: "images/hero.jpeg"
   # add logo and favicon
