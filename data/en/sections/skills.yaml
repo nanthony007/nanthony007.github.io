@@ -1,0 +1,33 @@
+# section information
+section:
+  name: Skills
+  id: skills
+  enable: true
+  weight: 2
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+# Your Skills.
+# Give a summary of you each skill in the summary section.
+skills:
+  - name: Python Development
+    summary: "Experienced writing automation scripts, publishing open-source packages, and building web backends at scale."
+    url: "https://www.python.org"
+
+  - name: Go Development
+    summary: "Experienced building REST APIs, CLIs, web technologies including scrapers/spiders, and Hugo sites."
+    url: "https://golang.org/"
+
+  - name: Rust Development
+    summary: "Intermediate experience with Rust development focusing on CLI applications and large data processing."
+    url: "https://www.rust-lang.org/"
+
+  - name: Natural Language Processing
+    summary: "Experienced using NLP models and toolkits including medical knowledge bases such as the UMLS or SNOMEDCT"
+
+  - name: Machine Learning
+    summary: "Experienced building supervised and unsupervised machine learning modeling to build predictive models."
+
+  - name: Data Engineering
+    summary: "Experienced with building large-scal data pipelines and managing data in structured and unstructured formats."

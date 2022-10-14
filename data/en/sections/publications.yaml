@@ -1,0 +1,76 @@
+# section information
+section:
+  name: Publications
+  id: publications
+  enable: true
+  weight: 4
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+# filter buttons
+buttons:
+  - name: All
+    filter: "all"
+  - name: "Geo-Spatial"
+    filter: "geo"
+  - name: "Natural Language Processing"
+    filter: "nlp"
+  - name: "Open Data"
+    filter: "odata"
+
+# your publications
+publications:
+  - title: Opioid overdoses increase at home during the COVID-19 stay-at-home order period in Cook County, Illinois
+    publishedIn:
+      name: AJPM Focus
+      date: June 15, 2022
+      url: https://www.ajpmfocus.org/article/S2773-0654(22)00006-2/fulltext
+    authors:
+      - name: Dr. Daniel Harris
+        url: https://scholar.google.com/citations?user=cd4XPCwAAAAJ&hl=en
+      - name: Dr. Chris Delcher
+        url: https://scholar.google.com/citations?user=tBRQWoYAAAAJ&hl=en
+      - name: Nick Anthony
+        url: https://scholar.google.com/citations?user=oo6TX5gAAAAJ&hl=en
+    paper:
+      summary: Stay-at-home orders during the COVID-19 pandemic decreased population mobility to reduce SARS-CoV-2 infection rates. We empirically tested the hypothesis that this public health measure was associated with a higher likelihood of opioid- and stimulant-involved deaths occurring in homes located in Cook County, Illinois.
+      url: https://www.ajpmfocus.org/article/S2773-0654(22)00006-2/fulltext
+    categories: ["geo", "odata"]
+    tags: ["Geo-Spatial", "Open Data"]
+
+  - title: "geoPIPE: Geospatial Pipeline for Enhancing Open Data for Substance Use Disorders Research"
+    publishedIn:
+      name: Presented at AMIA
+      date: November 5, 2022
+      url: https://amia.org/education-events/amia-2022-annual-symposium
+    authors:
+      - name: Dr. Daniel Harris
+        url: https://scholar.google.com/citations?user=cd4XPCwAAAAJ&hl=en
+      - name: Dr. Chris Delcher
+        url: https://scholar.google.com/citations?user=tBRQWoYAAAAJ&hl=en
+      - name: Nick Anthony
+        url: https://scholar.google.com/citations?user=oo6TX5gAAAAJ&hl=en
+    paper:
+      summary: Provides a framework for conducting geospatial analysis on Social Determinants of Health (SDOH) within a targeted spatial region. Built an end-to-end data pipeline that consumes data from multiple sources, performs geocoding and spatial joining, extracts drugs mentions, automates descriptive analysis and reporting, and publishes the enhanced data for consumption by internal and external researchers.
+      url: https://amia.org/education-events/amia-2022-annual-symposium
+    categories: ["geo", "odata"]
+    tags: ["Geo-Spatial", "Open Data"]
+
+  - title: Social Determinants of Health from Electronic Medical Records of Patients with Substance Use Disorders during the “Triple Wave”
+    publishedIn:
+      name: Pharmacology Biochemistry and Behavior
+      date: Released soon...
+      url: https://www.sciencedirect.com/journal/pharmacology-biochemistry-and-behavior
+    authors:
+      - name: Dr. Daniel Harris
+        url: https://scholar.google.com/citations?user=cd4XPCwAAAAJ&hl=en
+      - name: Dr. Chris Delcher
+        url: https://scholar.google.com/citations?user=tBRQWoYAAAAJ&hl=en
+      - name: Nick Anthony
+        url: https://scholar.google.com/citations?user=oo6TX5gAAAAJ&hl=en
+    paper:
+      summary: This study uses electronic medical records (EMRs) from a safety net hospital system from 14,032 patients in Kentucky from 2017 to 2019 in order to 1) define three types of SUD cohorts with shared/unique risk factors, 2) identify patients with unstable housing using novel methods for EMRs and 3) link patients to their residential neighborhood to obtain quantitative perspective on social vulnerability.
+      url: https://www.sciencedirect.com/journal/pharmacology-biochemistry-and-behavior
+    categories: ["nlp", "geo"]
+    tags: ["Natural Language Processing", "Geo-Spatial"]
