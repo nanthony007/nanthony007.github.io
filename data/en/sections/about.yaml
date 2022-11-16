@@ -42,21 +42,40 @@ socialLinks:
   - name: Twitter
     icon: "fab fa-twitter"
     url: "https://twitter.com/Nanthony95"
+
+  - name: Google Scholar
+    icon: "fa-solid fa-graduation-cap"
+    url: "https://scholar.google.com/citations?user=oo6TX5gAAAAJ&hl=en"
 # your soft skills
 # give the percentage between 50 to 100 with 5 intervals.
 # currently supported colors: blue, yellow, pink, green, sky, orange
 badges:
   - type: soft-skill-indicator
+    name: Data Pipelines
+    color: sky
+    percentage: 90
+
+  - type: soft-skill-indicator
     name: Backend
     color: yellow
-    percentage: 75
+    percentage: 85
 
   - type: soft-skill-indicator
     name: Machine learning
     color: "#A020F0"
-    percentage: 80
+    percentage: 75
 
   - type: soft-skill-indicator
-    name: Data Pipelines
-    color: sky
-    percentage: 90
+    name: Frontend
+    color: "#FF0000"
+    percentage: 50
+
+  - type: soft-skill-indicator
+    name: DB Admin
+    color: "#FFA500"
+    percentage: 60
+
+  - type: soft-skill-indicator
+    name: Automation
+    color: "green"
+    percentage: 100
