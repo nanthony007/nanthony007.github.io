@@ -1,0 +1,32 @@
+---
+import Layout from "../layouts/Layout.astro";
+import Card from "../components/Card.astro";
+---
+
+<Layout title="Projects">
+	<main>
+		<div class="flex justify-center py-5">
+			<h1 class="text-5xl underline text-slate-700 font-bold">Projects I work on</h1>
+		</div>
+		<div class="flex flex-wrap w-2/3 mx-auto justify-evenly gap-8">
+			<Card
+				title="Live Logger"
+				description="The simplest app you'll ever use to record timestamps and get the results in a CSV file."
+				link="https://live-logger.vercel.app"
+				imagePath="/src/assets/live-logger.png"
+			/>
+			<Card
+				title="Climbing Game"
+				description="A fun app to gameify indoor bouldering sessions."
+				link="https://climbing-app.vercel.app"
+				imagePath="/src/assets/climbing-game.png"
+			/>
+			<Card
+				title="Twitch Chat Filter"
+				description="A simple Twitch Chat clone w/ more filters for creators. (WIP)"
+				link="https://twitch-chat-filter.vercel.app"
+				imagePath="/src/assets/twitch-chat-filter.png"
+			/>
+		</div>
+	</main>
+</Layout>
